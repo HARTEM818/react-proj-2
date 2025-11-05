@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './indicator.css'
+
 class Indicator extends Component {
     render() {
         return (

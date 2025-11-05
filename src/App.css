@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -9,5 +15,4 @@
   display: flex;
   gap: 25px;
   max-width: 900px;
-  margin: auto;
 }
