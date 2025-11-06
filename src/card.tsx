@@ -1,21 +1,17 @@
 import { Component } from "react";
 import "./card.css";
-import Indicator from "./indicator.tsx";
+type CardProps = {
+  color: string;
+}
 
-
-class Card extends Component<{ color: string }, { color: string, border: string, }> {
-  state: { color: string, border: string, } = {
-    color: this.props.color,
-    border: "2px solid black"
-  };
-  changing = () => {
-    
-    this.setState({border: "5px solid red"})
-  }
+class Card extends Component<CardProps> {
+ 
   render() {
     return (
       <>
-        <li onClick={this.changing} className="card" style={{ backgroundColor: this.props.color, border: this.state.border}}></li>
+        <div className="card">
+
+        </div>
       </>
     );
   }
