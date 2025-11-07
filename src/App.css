@@ -6,7 +6,8 @@
 
 .App{
   display: flex;
-  max-width: 800px;
+  flex-wrap: wrap;
+  max-width: 940px;
   margin: 0 auto;
   gap: 20px;
 }
