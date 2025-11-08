@@ -7,7 +7,13 @@
 .App{
   display: flex;
   flex-wrap: wrap;
-  max-width: 940px;
+  max-width: 974px;
   margin: 0 auto;
   gap: 20px;
+  justify-content: center;
+}
+
+.card-wrapper{
+  display: flex;
+  gap: 25px;
 }
